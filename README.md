@@ -2,6 +2,9 @@
 <<<<<<< HEAD
 # HealthsTracker
 
+![Screenshot 2024-07-19 160707](https://github.com/user-attachments/assets/07e9bf32-5fa9-43fa-b4f4-1b5e5c10e270)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
 
 ## Development server
