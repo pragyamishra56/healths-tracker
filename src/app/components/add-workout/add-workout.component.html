@@ -1,0 +1,21 @@
+<div class="p-4">
+  <mat-form-field appearance="fill" class="w-full">
+    <mat-label>User Name</mat-label>
+    <input matInput [(ngModel)]="userName">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="w-full">
+    <mat-label>Workout Type</mat-label>
+    <mat-select [(ngModel)]="workoutType">
+      <mat-option *ngFor="let type of workoutTypes" [value]="type">{{ type }}</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="w-full">
+    <mat-label>Workout Minutes</mat-label>
+    <input matInput type="number" [(ngModel)]="workoutMinutes">
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" (click)="addWorkout()">Add Workout</button>
+</div>
+
